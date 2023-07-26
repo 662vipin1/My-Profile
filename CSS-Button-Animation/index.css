@@ -1,0 +1,19 @@
+body{
+    background-color: wheat;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid salmon;
+    margin: auto;
+    padding: 10vh;
+}
+button{
+    width: 15rem;
+    height: 5rem;
+    font-size: 2rem;
+    color: white;
+    background-color: cadetblue;
+    border-radius: 1rem;
+}
