@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Property</title>
+    <style>
+        /* Normal CSS Styles */
+        div{
+            padding: 50px;
+            margin: 10px auto;
+            width: 800px;
+            font-size: 18px;
+            background-color: cadetblue;
+            border: 1px solid black;
+        }
+        p{
+            margin: 10px;
+            background-color: yellowgreen;
+        }
+        img{
+            padding: 10px;
+        }
+        /* CSS Topic Styles */
+        #one img{
+            float: left;
+        }
+        #two img{
+            float: right;
+        }
+        #four img{
+            float: left;
+        }
+        #five img{
+            float: right;
+        }
+        p#four, p#five, p#six{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p id="one"><img src="./float pokemon.png" alt="house"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, iusto nam illum sunt repudiandae perspiciatis temporibus vero modi odio rem voluptas sint iste expedita facere quisquam. Vitae asperiores doloremque nihil. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, iusto nam illum sunt repudiandae perspiciatis temporibus vero modi odio rem voluptas sint iste expedita facere quisquam.Vitae asperiores doloremque nihil. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, iusto nam illum sunt repudiandae perspiciatis temporibus vero modi odio rem voluptas sint iste expedita facere quisquam.</p>
+
+        <p id="two">Lorem ipsum dolor, sit amet consectetur <img src="./float pokemon.png" alt="house"> adipisicing elit. Aliquid, iusto nam illum sunt repudiandae perspiciatis temporibus vero modi odio rem voluptas sint iste expedita facere quisquam. Vitae asperiores doloremque nihil. Vitae asperiores doloremque nihil. Vitae asperiores doloremque nihil.</p>
+
+        <p id="three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam rerum eligendi distinctio labore aut reiciendis quae, explicabo dolor nisi voluptas obcaecati veniam consequatur? Eum minus voluptate unde laudantium laborum consequuntur temporibus eligendi voluptates voluptatum. At corporis maiores molestias deleniti perferendis illum excepturi quibusdam</p>
+    </div>
+    <div>
+        <p id="four"><img src="./float pokemon.png" alt="house"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, iusto nam illum sunt repudiandae perspiciatis temporibus vero modi odio rem voluptas sint iste expedita facere quisquam. Vitae asperiores doloremque nihil. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, iusto nam illum sunt repudiandae perspiciatis temporibus vero modi odio rem voluptas sint iste expedita facere quisquam.Vitae asperiores doloremque nihil. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, iusto nam illum sunt repudiandae perspiciatis temporibus vero modi odio rem voluptas sint iste expedita facere quisquam.</p>
+
+        <p id="five">Lorem ipsum dolor, sit amet consectetur <img src="./float pokemon.png" alt="house"> adipisicing elit. Aliquid, iusto nam illum sunt repudiandae perspiciatis temporibus vero modi odio rem voluptas sint iste expedita facere quisquam. Vitae asperiores doloremque nihil. Vitae asperiores doloremque nihil. Vitae asperiores doloremque nihil.</p>
+
+        <p id="six">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam rerum eligendi distinctio labore aut reiciendis quae, explicabo dolor nisi voluptas obcaecati veniam consequatur? Eum minus voluptate unde laudantium laborum consequuntur temporibus eligendi voluptates voluptatum. At corporis maiores molestias deleniti perferendis illum excepturi quibusdam</p>
+    </div>
+</body>
+</html>
