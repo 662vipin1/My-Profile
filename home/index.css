@@ -1,0 +1,44 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: lightblue;
+}
+.main-grid{
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+}
+
+.main-grid div.profile{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 3em;
+    color: black;
+    border-right: 3px solid saddlebrown;
+}
+
+.main-grid div.project{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    font-size: 3em;
+    color: black;
+    border-left: 3px solid saddlebrown;
+}
+
+div.project > div{
+    margin: 10px 10px;
+    padding: 5px;
+    width: 325px;
+    height: 200px;
+    background-color: lightgreen;
+    border: 1px solid green;
+}
