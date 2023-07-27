@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Overlay</title>
+    <style>
+        *, *::before, *::after{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: lightblue;
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            background-color: #ffe593;
+        }
+        .main{
+            margin: 10px auto;
+            width: 95%;
+            display: block;
+        }
+        .gallary{
+            margin: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: start;
+            gap: 10px;
+        }
+        .item > img{
+            width: 300px;
+            height: auto;
+            display: block;
+        }
+        .label{
+            margin: 0;
+            padding: 0 10px;
+            width: 300px;
+            height: 3rem;
+            font-size: 2rem;
+            line-height: 3rem;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            color: white;
+            background-color: hsla(0, 0%, 0%, 0.4);
+            /* old way for shifting background with text */
+            /* margin-top: -3rem;
+            position: relative; */
+            /* new way for shifting background with text */
+            transform: translateY(-3rem);
+            margin-bottom: -3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Text Overlaying Images</h1>
+    </header>
+    <main class="main">
+        <div class="gallary">
+            <div class="item">
+                <img src="./img/100-300-400.jpg" alt="" >
+                <p class="label">Sun rose over the horizon</p>
+            </div>
+
+            <div class="item">
+                <img src="./img/101-300-400.jpg" alt="" >
+                <p class="label">Simple joys</p>
+            </div>
+
+            <div class="item">
+                <img src="./img/103-300-400.jpg" alt="" >
+                <p class="label">Sweet scent of wildflowers</p>
+            </div>
+
+            <div class="item">
+                <img src="./img/104-300-400.jpg" alt="" >
+                <p class="label">Friends gathered around a table</p>
+            </div>
+            <div class="item">
+                <img src="./img/100-300-400.jpg" alt="" >
+                <p class="label">Sun rose over the horizon</p>
+            </div>
+
+            <div class="item">
+                <img src="./img/101-300-400.jpg" alt="" >
+                <p class="label">Simple joys</p>
+            </div>
+
+            <div class="item">
+                <img src="./img/103-300-400.jpg" alt="" >
+                <p class="label">Sweet scent of wildflowers</p>
+            </div>
+
+            <div class="item">
+                <img src="./img/104-300-400.jpg" alt="" >
+                <p class="label">Friends gathered around a table</p>
+            </div>
+
+            <div class="item">
+                <img src="./img/100-300-400.jpg" alt="" >
+                <p class="label">Sun rose over the horizon</p>
+            </div>
+
+            <div class="item">
+                <img src="./img/101-300-400.jpg" alt="" >
+                <p class="label">Simple joys</p>
+            </div>
+
+            <div class="item">
+                <img src="./img/103-300-400.jpg" alt="" >
+                <p class="label">Sweet scent of wildflowers</p>
+            </div>
+
+            <div class="item">
+                <img src="./img/104-300-400.jpg" alt="" >
+                <p class="label">Friends gathered around a table</p>
+            </div>
+
+            <div class="item">
+                <img src="./img/100-300-400.jpg" alt="" >
+                <p class="label">Sun rose over the horizon</p>
+            </div>
+
+            <div class="item">
+                <img src="./img/101-300-400.jpg" alt="" >
+                <p class="label">Simple joys</p>
+            </div>
+
+            <div class="item">
+                <img src="./img/103-300-400.jpg" alt="" >
+                <p class="label">Sweet scent of wildflowers</p>
+            </div>
+
+            <div class="item">
+                <img src="./img/104-300-400.jpg" alt="" >
+                <p class="label">Friends gathered around a table</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
