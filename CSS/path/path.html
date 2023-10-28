@@ -36,11 +36,10 @@
         }
 
         div {
-            padding: 5px;
-            width: 80%;
+            padding: 20px;
             position: absolute;
-            inset: 20px auto auto 20px;
-            background-color: hsla(0, 50%, 50%, .5);
+            inset: 20% auto auto 20%;
+            background-color: hsla(0, 0%, 20%, .7);
         }
     </style>
 </head>
@@ -49,30 +48,30 @@
     <section>
         <img src="path.jpg" alt="path.jpg">
         <div>
-            <p>Relative to the current folder or base element</p>
             <p>path.jpg</p>
         </div>
+        <p>Relative to the current folder or base element</p>
     </section>
     <section>
         <img src="./path.jpg" alt="./path.jpg">
         <div>
-            <p>Relative to the current folder or base element</p>
             <p>./path.jpg</p>
         </div>
+        <p>Relative to the current folder or base element</p>
     </section>
     <section>
         <img src="/path.jpg" alt="">
         <div>
-            <p>Relative to the root folder</p>
             <p>/path.jpg</p>
         </div>
+        <p>Relative to the root folder</p>
     </section>
     <section>
         <img src="https://vipinsingh.netlify.app/image/path.jpg" alt="">
         <div>
-            <p>Absolute path</p>
-            <p>path.jpg</p>
+            <p>https://vipinsingh.netlify.app/image/path.jpg</p>
         </div>
+        <p>Absolute path</p>
     </section>
 </body>
 </html>
